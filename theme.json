@@ -1,0 +1,206 @@
+{
+    "name": "Name",
+    "description": "Description",
+    "elements": [
+      {
+        "tag": "Element",
+        "width": 650,
+        "fontSize": 40
+      },
+      {
+        "tag": "Boundary:SoftwareSystem",
+        "strokeWidth": 8
+      },
+      {
+        "tag": "asset",
+        "background": "#ffffff",
+        "strokeWidth": 5,
+        "color": "#000000",
+        "shape": "RoundedBox",
+        "border": "Dashed"
+      },
+      {
+        "tag": "external",
+        "stroke": "#000000"
+      },
+      {
+        "tag": "internal",
+        "stroke": "#009414"
+      },
+      {
+        "tag": "Person",
+        "background": "#ffffff",
+        "stroke": "#4a86e8",
+        "strokeWidth": 5,
+        "color": "#000000",
+        "shape": "Person"
+      },
+      {
+        "tag": "kube",
+        "strokeWidth": 5,
+        "shape": "RoundedBox"
+      },
+      {
+        "tag": "kafka_topic",
+        "height": 100,
+        "background": "#ffffff",
+        "stroke": "#0b5394",
+        "color": "#000000",
+        "shape": "Pipe"
+      },
+      {
+        "tag": "container",
+        "background": "#ffffff",
+        "stroke": "#000000",
+        "color": "#000000"
+      },
+      {
+        "tag": "cron",
+        "background": "#ffffff",
+        "stroke": "#4a86e8",
+        "color": "#000000"
+      },
+      {
+        "tag": "front",
+        "background": "#ffffff",
+        "stroke": "#000000",
+        "color": "#000000",
+        "shape": "WebBrowser"
+      },
+      {
+        "tag": "database",
+        "strokeWidth": 5,
+        "shape": "Cylinder"
+      },
+      {
+        "tag": "sql_server",
+        "background": "#ffffff",
+        "stroke": "#91bde4",
+        "color": "#000000"
+      },
+      {
+        "tag": "mongodb",
+        "background": "#ffffff",
+        "stroke": "#d1e6c7",
+        "color": "#000000"
+      },
+      {
+        "tag": "cassandra",
+        "background": "#ffffff",
+        "stroke": "#e06666",
+        "color": "#000000"
+      },
+      {
+        "tag": "postgresql",
+        "background": "#ffffff",
+        "stroke": "#f9c895",
+        "color": "#000000"
+      },
+      {
+        "tag": "dataplatform",
+        "background": "#ffffff",
+        "stroke": "#ffd966",
+        "color": "#000000"
+      },
+      {
+        "tag": "solr",
+        "background": "#ffffff",
+        "stroke": "#4a86e8",
+        "color": "#000000",
+        "border": "Dashed"
+      },
+      {
+        "tag": "elastic",
+        "background": "#ffffff",
+        "stroke": "#ff0000",
+        "color": "#000000",
+        "border": "Dashed"
+      },
+      {
+        "tag": "file_storage",
+        "strokeWidth": 5,
+        "shape": "Folder"
+      },
+      {
+        "tag": "nas",
+        "background": "#ffffff",
+        "stroke": "#6fa8dc",
+        "color": "#000000"
+      },
+      {
+        "tag": "ceph",
+        "background": "#ffffff",
+        "stroke": "#93c47d",
+        "color": "#000000"
+      },
+      {
+        "tag": "iis_endpoint",
+        "background": "#ffffff",
+        "stroke": "#000000",
+        "strokeWidth": 5,
+        "color": "#000000",
+        "shape": "Box"
+      },
+      {
+        "tag": "talend_job",
+        "background": "#ffffff",
+        "stroke": "#000000",
+        "strokeWidth": 5,
+        "color": "#000000",
+        "shape": "Ellipse"
+      },
+      {
+        "tag": "mail_server",
+        "background": "#ffffff",
+        "strokeWidth": 5,
+        "color": "#000000",
+        "shape": "Box"
+      },
+      {
+        "tag": "imap",
+        "stroke": "#ff0000"
+      },
+      {
+        "tag": "smtp",
+        "stroke": "#4a86e8"
+      }
+    ],
+    "relationships": [
+      {
+        "tag": "Relationship",
+        "fontSize": 30
+      },
+      {
+        "tag": "messaging",
+        "thickness": 5,
+        "color": "#000000",
+        "style": "Dashed"
+      },
+      {
+        "tag": "kafka",
+        "color": "#0b5394"
+      },
+      {
+        "tag": "rabbit",
+        "color": "#ab7546"
+      },
+      {
+        "tag": "direct",
+        "thickness": 5,
+        "color": "#000000",
+        "style": "Solid"
+      },
+      {
+        "tag": "http",
+        "thickness": 5,
+        "color": "#000000",
+        "style": "Solid"
+      },
+      {
+        "tag": "ftp",
+        "thickness": 5,
+        "color": "#000000",
+        "style": "Dashed"
+      }
+    ]
+  }
