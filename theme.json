@@ -49,6 +49,14 @@
         "shape": "Pipe"
       },
       {
+        "tag": "rabbit_queue",
+        "height": 100,
+        "background": "#ffffff",
+        "stroke": "#ab7546",
+        "color": "#000000",
+        "shape": "Pipe"
+      },
+      {
         "tag": "container",
         "background": "#ffffff",
         "stroke": "#000000",
